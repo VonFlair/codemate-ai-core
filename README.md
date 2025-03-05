@@ -19,13 +19,12 @@ CodeMate AI Core 是专为开发者打造的智能代码生成工具，集成 **
 
 ### 安装与使用
 
-#### 1. 在 VS Code 中安装
-1. 打开 VS Code 扩展商店，搜索 **CodeMate AI Core** 并安装。  
-2. 或者从 [GitHub Releases](https://github.com/codemate-dev/codemate-ai-core/releases) 下载最新的 `.vsix` 文件，使用以下命令行安装：  
+#### 1. 安装
+ 1. 从 [GitHub Releases](https://github.com/codemate-ai-core/releases/codemate-ai-core-1.0.1.vsix) 下载最新的 `.vsix` 文件，使用以下命令行安装：  
    ```bash
    code --install-extension codemate-ai-core-1.0.x.vsix --force
    ```
-3. 重启 VS Code 完成插件加载。
+2. 重启 VS Code 完成插件加载。
 
 #### 2. 配置
 1. 在 VS Code 设置（Settings）中搜索 `codemate.apiKey` 并填入你的 DeepSeek API 密钥。  
@@ -67,13 +66,12 @@ CodeMate AI Core is an intelligent code generation plugin for developers, powere
 
 ### Installation & Usage
 
-#### 1. Install in VS Code
-1. Open the VS Code Extensions marketplace, search for **CodeMate AI Core**, and click **Install**.  
-2. Alternatively, download the latest `.vsix` file from the [GitHub Releases](https://github.com/codemate-dev/codemate-ai-core/releases) page and install it via command line:
+#### 1. Install
+1. Download the latest `.vsix` file from the [GitHub Releases](https://github.com/codemate-ai-core/releases/codemate-ai-core-1.0.1.vsix) page and install it via command line:
    ```bash
    code --install-extension codemate-ai-core-1.0.x.vsix --force
    ```
-3. Reload/Restart VS Code to activate the extension.
+2. Reload/Restart VS Code to activate the extension.
 
 #### 2. Configuration
 1. In VS Code settings, search for `codemate.apiKey` and insert your DeepSeek API key.  
