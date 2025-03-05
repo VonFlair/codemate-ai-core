@@ -20,7 +20,7 @@ CodeMate AI Core 是专为开发者打造的智能代码生成工具，集成 **
 ### 安装与使用
 
 #### 1. 安装
- 1. 从 [GitHub Releases](https://github.com/codemate-ai-core/releases/codemate-ai-core-1.0.1.vsix) 下载最新的 `.vsix` 文件，使用以下命令行安装：  
+ 1. 从 [GitHub Releases](https://github.com/VonFlair/codemate-ai-core/releases/codemate-ai-core-1.0.1.vsix) 下载最新的 `.vsix` 文件，使用以下命令行安装：  
    ```bash
    code --install-extension codemate-ai-core-1.0.x.vsix --force
    ```
@@ -67,7 +67,7 @@ CodeMate AI Core is an intelligent code generation plugin for developers, powere
 ### Installation & Usage
 
 #### 1. Install
-1. Download the latest `.vsix` file from the [GitHub Releases](https://github.com/codemate-ai-core/releases/codemate-ai-core-1.0.1.vsix) page and install it via command line:
+1. Download the latest `.vsix` file from the [GitHub Releases](https://github.com/VonFlair/codemate-ai-core/releases/codemate-ai-core-1.0.1.vsix) page and install it via command line:
    ```bash
    code --install-extension codemate-ai-core-1.0.x.vsix --force
    ```
