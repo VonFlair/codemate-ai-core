@@ -1,0 +1,9 @@
+{
+	"compilerOptions": {
+		"types": ["node","mocha"],
+		"outDir": "out",  // [!code focus]
+		"rootDir": "src"   // [!code focus]
+	  },
+	"include": ["src/**/*"],
+	"exclude": ["node_modules"]
+  }

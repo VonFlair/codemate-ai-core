@@ -1,0 +1,127 @@
+{
+  "name": "codemate-ai-core",
+  "publisher": "codemate-team",
+  "displayName": "CodeMate AI Core",
+  "description": "Affordable AI Coding Assistant with DeepSeek-R1 Integration",
+  "version": "1.0.1",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Programming Languages",
+    "AI"
+  ],
+  "main": "./out/extension.js",
+  "icon": "images/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codemate-dev/codemate-ai-core"
+  },
+  "keywords": [
+    "AI",
+    "code-completion",
+    "deepseek",
+    "productivity"
+  ],
+  "activationEvents": [
+    "onCommand:codemate.aiComplete",
+    "onCommand:codemate.aiChat",
+    "onCommand:codemate.showUpdateHistory"
+  ],
+  "contributes": {
+    "viewsContainers": {
+        "activitybar": [
+            {
+                "id": "codemate-sidebar",
+                "title": "CodeMate History",
+                "icon": "images/icon.svg"
+            }
+        ]
+    },
+    "views": {
+        "codemate-sidebar": [
+            {
+                "id": "codemate.historyView",
+                "name": "Update History"
+            }
+        ]
+    },
+    "keybindings": [
+      {
+        "command": "codemate.aiChat",
+        "key": "ctrl+alt+c",
+        "when": "editorTextFocus"
+      }, 
+      {
+        "command": "codemate.showUpdateHistory",
+        "key": "ctrl+alt+u",
+        "when": "editorTextFocus"
+      }
+    ],
+    "commands": [
+      {
+        "command": "codemate.aiComplete",
+        "title": "AI Complete Code"
+      },
+      {
+        "command": "codemate.aiChat",
+        "title": "AI Chat"
+      },
+      {
+        "command": "codemate.undoUpdate",
+        "title": "Undo Update"
+      },
+      {
+        "command": "codemate.redoUpdate",
+        "title": "Redo Update"
+      },
+      {
+        "command": "codemate.revealUpdate",
+        "title": "Reveal Update"
+      },
+      {
+        "command": "codemate.showUpdateHistory", 
+        "title": "CodeMate: showUpdateHistory"
+      }
+    ],
+    "configuration": {
+      "title": "CodeMate",
+      "properties": {
+        "codemate.apiKey": {
+          "type": "string",
+          "default": "",
+          "description": "DeepSeek API密钥"
+        },
+        "codemate.temperature": {
+          "type": "number",
+          "default": 0.3,
+          "minimum": 0.1,
+          "maximum": 1,
+          "description": "控制生成创意性 (0.1-1.0)"
+        },
+        "codemate.timeout": {
+          "type": "number",
+          "default": 30000,
+          "description": "API请求超时时间(毫秒)"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "package": "vsce package"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^20.11.0",
+    "@types/node-fetch": "^2.6.12",
+    "@types/vscode": "^1.85.0",
+    "typescript": "^5.0.4"
+  },
+  "license": "AGPL-3.0-only WITH Commercial-exception",
+  "private": true,
+  "dependencies": {
+    "node-fetch": "^2.7.0"
+  }
+}
