@@ -44,7 +44,7 @@ CodeMate AI Core 是专为开发者打造的智能代码生成工具，集成 **
 
 ### 许可证
 本项目实际使用的许可证是：  
-**AGPL-3.0-only**（带 Commercial Exception），允许在特定商业场景中使用，详情请见 [LICENSE] 文件。  
+**AGPL-3.0-only**（带 Commercial Exception），允许在特定商业场景中使用，详情请见 [LICENSE](license) 文件。  
 
 ---
 
@@ -93,5 +93,5 @@ CodeMate AI Core is an intelligent code generation plugin for developers, powere
 ### License
 This project is licensed under:  
 **AGPL-3.0-only with a Commercial Exception**, which permits usage in specific commercial scenarios.  
-For detailed terms, please see the [LICENSE] file.  
+For detailed terms, please see the [LICENSE](license) file.  
 
