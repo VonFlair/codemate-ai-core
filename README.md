@@ -1,5 +1,6 @@
-# CodeMate AI Core 
-Judson Feng 独立开发的 AI 代码助手  
+# CodeMate AI Core
+
+**Developer / 开发者:** Jiayu Feng  
 **AGPL-3.0-only (带 Commercial Exception)**
 
 ## 简体中文
@@ -92,4 +93,3 @@ CodeMate AI Core is an intelligent code generation plugin for developers, powere
 This project is licensed under:  
 **AGPL-3.0-only with a Commercial Exception**, which permits usage in specific commercial scenarios.  
 For detailed terms, please see the [LICENSE](license) file.  
-
